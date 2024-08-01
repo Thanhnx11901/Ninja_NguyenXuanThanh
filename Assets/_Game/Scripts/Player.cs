@@ -24,7 +24,7 @@ public class Player : Character
     protected override void Start()
     {
         base.Start();
-        coin = PlayerPrefs.GetInt("coin", 0);
+        coin = PlayerPrefs.GetInt("coin");
     }
     protected override void OnInit()
     {
